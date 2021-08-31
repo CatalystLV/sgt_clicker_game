@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: khaki;
+
+}
+
+.page{
+    width: auto;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    width: 85%;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.welcome{
+    width: 85%;
+    font-family: fantasy;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multi{
+    font-family: fantasy;
+    color: red;
+    font-size: 1.5em;
+    width: 85%;
+    justify-content: center;
+    align-items: center;    
+}
+
+.score{
+    font-family: fantasy;
+    font-size: 1.5em;
+    width: 40%;
+    margin: 5%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaces{
+    margin-left: 1%;
+}
+
+.cookie{
+    width: 40%;
+    height: 40%;
+    margin: 5%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.button2{
+    font-family: fantasy;
+    font-size: 1.5em;
+    margin: 7%;
+    padding: 10px;
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: blue solid 1px;
+    border-radius: 10px;
+}
+
